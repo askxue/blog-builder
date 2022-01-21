@@ -3,26 +3,26 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: 一笔淡墨
+subtitle: '临渊羡鱼，不如退而结网'
+description: '随手写下成长'
 keywords:
-author: John Doe
-language: en
-timezone: ''
+author: xue
+language: zh-CN
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://xue65535.cn
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
-  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+  trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: false # Set to false to remove trailing '.html' from permalinks
 
 # Directory
-source_dir: source
-public_dir: public
+source_dir: D:\xue\wiki           # 使用外部路径，post目录已经和该目录合二为一
+public_dir: D:\code\website       # 输出到指定目录，不一定非得本项目内
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
@@ -30,8 +30,8 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
 
-# Writing
-new_post_name: :title.md # File name of new posts
+# 写作
+new_post_name: :title.md   # 文章文件名
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link:
@@ -40,7 +40,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true   # 打开资源管理，每次新建文件时，会同时生成一个名字一样的资源目录
 relative_link: false
 future: true
 highlight:
@@ -97,7 +97,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: fluid
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
