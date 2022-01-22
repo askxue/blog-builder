@@ -21,8 +21,8 @@ pretty_urls:
   trailing_html: false # Set to false to remove trailing '.html' from permalinks
 
 # Directory
-source_dir: D:\xue\wiki           # 使用外部路径，post目录已经和该目录合二为一
-public_dir: D:\code\website       # 输出到指定目录，不一定非得本项目内
+source_dir: source
+public_dir: D:\tmp\website       # 输出到指定目录，不一定非得本项目内
 tag_dir: tags
 archive_dir: archives
 category_dir: categories

@@ -3,10 +3,10 @@
 #---------------------------
 
 # 用于浏览器标签的图标
-favicon: /asset/img/favicon.png
+favicon: https://img.xue65535.cn/img/2022/01/22/3740c7f9597f720a22aa81e23541e843-0ba39fe9.png
 
 # 用于苹果设备的图标
-apple_touch_icon: /asset/img/favicon.png
+apple_touch_icon: https://img.xue65535.cn/img/2022/01/22/3740c7f9597f720a22aa81e23541e843-0ba39fe9.png
 
 # 浏览器标签页中的标题分隔符，效果： 文章名 - 站点名
 tab_title_separator: " - "
@@ -326,7 +326,7 @@ footer:
 #---------------------------
 index:
   # 首页 Banner 头图，可以是相对路径或绝对路径，以下相同
-  banner_img: /asset/img/bg/20.jpeg
+  banner_img: https://img.xue65535.cn/img/2022/01/22/5d7c4cb6cb96937f12cc7ee4ffbfc3ae-a8c03f2f.jpeg
   # 头图高度，屏幕百分比
   # Available: 0 - 100
   banner_img_height: 100
@@ -378,12 +378,12 @@ index:
 # Post Page
 #---------------------------
 post:
-  banner_img: /asset/img/bg/18.jpeg
+  banner_img: https://img.xue65535.cn/img/2022/01/22/4b8d15826e4a9151d8095504f2f8ce46-18cf70f6.jpeg
   banner_img_height: 70
   banner_mask_alpha: 0.3
 
   # 文章在首页的默认封面图，当没有指定 index_img 时会使用该图片，若两者都为空则不显示任何图片
-  default_index_img: /asset/img/default/post_index.jpg
+  default_index_img: https://img.xue65535.cn/img/2022/01/22/cdd913f8537f1b426736b2da8da3da66-16107c85.jpg
 
   # 文章标题下方的元信息
   meta:
@@ -619,7 +619,7 @@ cusdis:
 # Archive Page
 #---------------------------
 archive:
-  banner_img: /asset/img/bg/17.jpeg
+  banner_img: https://img.xue65535.cn/img/2022/01/22/7c62008d6dba315a21e952a06f87ea0d-f20dc8b2.jpeg
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle: '千里之行，始于足下 —— 老子'
@@ -631,7 +631,7 @@ archive:
 #---------------------------
 category:
   enable: true
-  banner_img: /asset/img/bg/19.jpeg
+  banner_img: https://img.xue65535.cn/img/2022/01/22/b17dd0115c401cc8b19ad0d4c92fd5ab-e51f38c5.jpeg
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle: '学而不思则罔，思而不学则殆 —— 孔子'
@@ -657,7 +657,7 @@ category:
 #---------------------------
 tag:
   enable: true
-  banner_img: /asset/img/bg/7.jpeg
+  banner_img: https://img.xue65535.cn/img/2022/01/22/19b1f707877b031a553bd877739cfda4-9b548275.jpeg
   banner_img_height: 80
   banner_mask_alpha: 0.3
   subtitle: '博观而约取，厚积而薄发 —— 苏轼'
@@ -685,17 +685,17 @@ tag:
 #---------------------------
 about:
   enable: true
-  banner_img: /asset/img/bg/11.jpeg
+  banner_img: https://img.xue65535.cn/img/2022/01/22/ed5463a3732e7542fa054f8ebbb1a618-54b220e8.jpeg
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle: '世上哪有什么一蹴而就的事，有的只是百炼成钢，水到渠成'
-  avatar: /asset/img/me/avatar.jpg
+  avatar: https://img.xue65535.cn/img/2022/01/22/15dc0c7f83f8d8e73c8c7a8c693ef636-0f0b91ba.jpg
   name: "xue"
   intro: " 键落惊风雨，码成泣鬼神。"
   # 更多图标可从 https://hexo.fluid-dev.com/docs/icon/ 查找，`class` 代表图标的 css class，添加 `qrcode` 后，图标不再是链接而是悬浮二维码
   icons:
     - { class: "iconfont icon-github-fill", link: "https://github.com/askxue", tip: "GitHub" }
-    - { class: "iconfont icon-wechat-fill", qrcode: "/asset/img/me/wxqrcode.png" }
+    - { class: "iconfont icon-wechat-fill", qrcode: "https://img.xue65535.cn/img/2022/01/22/5fb5da8f0a2b7729d97e247cc87bcb03-f57a8fc5.png" }
 
 
 #---------------------------
@@ -705,7 +705,7 @@ about:
 # 通过 hexo new page 命令创建的页面
 #---------------------------
 page:
-  banner_img: /asset/img/bg/18.jpeg
+  banner_img: https://img.xue65535.cn/img/2022/01/22/4b8d15826e4a9151d8095504f2f8ce46-18cf70f6.jpeg
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
@@ -715,7 +715,7 @@ page:
 #---------------------------
 page404:
   enable: true
-  banner_img: /asset/img/bg/19.jpeg
+  banner_img: https://img.xue65535.cn/img/2022/01/22/b17dd0115c401cc8b19ad0d4c92fd5ab-e51f38c5.jpeg
   banner_img_height: 85
   banner_mask_alpha: 0.3
   subtitle: "Sorry!地球上已经找不到你想要的页面了..."
@@ -753,7 +753,7 @@ links:
     }
 
   # 当成员头像加载失败时，替换为指定图片
-  onerror_avatar: /asset/img/default/avatar.jpg
+  onerror_avatar: https://img.xue65535.cn/img/2022/01/22/cae4b44c74a4d3c89c2c286c17dade53-0a1c25ac.jpg
 
   # 友链下方自定义区域，支持 HTML，可插入例如申请友链的文字
   custom:
