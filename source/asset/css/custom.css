@@ -1,0 +1,35 @@
+.markdown-body blockquote {
+  padding: 0.75rem;
+  border-left: 0.35rem solid;
+  border-radius: 0.25rem;
+  margin: 1.5rem 0;
+  color: #3c4858;
+  font-size: 0.9rem;
+  background-color: #fcf1f2;
+  border-color: #d9534f;
+}
+
+.markdown-body blockquote:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body blockquote a {
+  color: #3c4858;
+}
+
+/*备案 */
+.links_beian {
+  position: relative;
+}
+.links_beian a {
+  color: #939393;
+}
+.links_beian a:before {
+  left: 0;
+  top: 0;
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 23px;
+  background: url(https://img.xue65535.cn/img/2022/01/20/35a4dfc421e8f0e3969f59c9494f06b3-23e114d0.png) no-repeat -459px -662px;
+}
