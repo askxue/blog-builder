@@ -8,6 +8,7 @@ subtitle: '临渊羡鱼，不如退而结网'
 description: '随手写下成长'
 keywords:
 author: xue
+# 语言， en/zh-CN/zh-TW
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
@@ -43,6 +44,7 @@ render_drafts: false
 post_asset_folder: true   # 打开资源管理，每次新建文件时，会同时生成一个名字一样的资源目录
 relative_link: false
 future: true
+# 代码块样式渲染
 highlight:
   enable: true
   line_number: true
@@ -97,7 +99,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: fluid
+theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
