@@ -1,4 +1,5 @@
 /**
+ * gulp 工作流脚本
  * @author xue
  * @since 2022/1/23
  */
@@ -6,16 +7,16 @@
 const gulp = require("gulp");
 const workbox = require("workbox-build");
 
-gulp.task('generate-service-worker', () => {
+const task_name = "generate-service-worker";
+const public_dir = "D:\\tmp\\website";            // 输出目录，要和hexo配置文件内的保持一致
+
+gulp.task(task_name, () => {
   return workbox.injectManifest({
     swSrc: './sw-template.js',
-    swDest: './public/sw.js',
-    globDirectory: './public',
+    swDest: public_dir + '/sw.js',
+    globDirectory: public_dir,
     globPatterns: [
-      // 缓存所有以下类型的文件，极端不推荐
-      // "**/*.{html,css,js,json,woff2,xml}"
-      // 推荐只缓存404，主页和主要样式和脚本。
-      "404.html", "index.html", "js/main.js", "css/index.css"
+      "**/*.{html,css,js,json,woff2,xml}"                   // 缓存类型文件
     ],
     modifyURLPrefix: {
       "": "./"
@@ -23,4 +24,4 @@ gulp.task('generate-service-worker', () => {
   });
 });
 
-gulp.task("default", gulp.series("generate-service-worker"));
+gulp.task("default", gulp.series(task_name));
