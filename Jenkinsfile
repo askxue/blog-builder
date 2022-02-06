@@ -16,7 +16,7 @@ pipeline {
                               disableSubmodules: false,
                               parentCredentials: true,
                               recursiveSubmodules: true,
-                              reference: '', shallow: true, trackingSubmodules: false
+                              reference: '', trackingSubmodules: false
                           ]
                       ],
                       userRemoteConfigs: [[credentialsId: 'gitee_account', url: 'https://gitee.com/xs1990582233/blog-builder.git']]
