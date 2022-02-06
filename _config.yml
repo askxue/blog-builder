@@ -23,7 +23,7 @@ pretty_urls:
 
 # Directory
 source_dir: source
-public_dir: D:\tmp\website       # 输出到指定目录，不一定非得本项目内
+public_dir: public        # 输出到指定目录，不一定非得本项目内
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
