@@ -1,9 +1,12 @@
 [submodule "themes/fluid"]
 	path = themes/fluid
-	url = https://gitee.com/xs1990582233/hexo-theme-fluid.git
+	url = https://github.com/askxue/hexo-theme-fluid.git
+	branch = main
 [submodule "themes/butterfly"]
 	path = themes/butterfly
-	url = https://gitee.com/xs1990582233/hexo-theme-butterfly.git
+	url = https://github.com/askxue/hexo-theme-butterfly.git
+	branch = main
 [submodule "source/_posts"]
 	path = source/_posts
-	url = https://gitee.com/xs1990582233/wiki.git
+	url = https://github.com/askxue/wiki.git
+	branch = main
