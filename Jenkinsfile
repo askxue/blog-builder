@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('checkout') {
             steps {
-              checkout([$class: 'GitSCM', branches: [[name: 'main']], extensions: [[$class: 'SubmoduleOption', disableSubmodules: false, parentCredentials: true, recursiveSubmodules: true, reference: '', trackingSubmodules: false]], userRemoteConfigs: [[credentialsId: 'gitee_account', url: 'https://gitee.com/xs1990582233/blog-builder.git']]])
+              checkout([$class: 'GitSCM', branches: [[name: 'main']], extensions: [[$class: 'SubmoduleOption', disableSubmodules: false, parentCredentials: true, recursiveSubmodules: true, reference: '', trackingSubmodules: true]], userRemoteConfigs: [[credentialsId: 'gitee_account', url: 'https://gitee.com/xs1990582233/blog-builder.git']]])
             }
         }
         stage('build') {
