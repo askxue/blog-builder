@@ -8,5 +8,5 @@
 	branch = main
 [submodule "source/_posts"]
 	path = source/_posts
-	url = https://github.com/askxue/wiki.git
+	url = https://gitee.com/askxue/wiki.git
 	branch = main
