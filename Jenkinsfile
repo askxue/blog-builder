@@ -14,7 +14,7 @@ pipeline {
         stage('build') {
             steps {
                 sh 'npm install'
-                sh 'npm install -g hexo-cli'
+                sh 'npm install -g hexo-cli gulp-cli'
                 sh 'hexo g -f'
                 sh 'gulp'
                 sh 'cp -rf public  ../../www'
