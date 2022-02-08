@@ -16,6 +16,7 @@ pipeline {
                 sh 'npm install'
                 sh 'npm install -g hexo-cli'
                 sh 'hexo g -f'
+                sh 'gulp'
                 sh 'cp -rf public  ../../www'
             }
         }
