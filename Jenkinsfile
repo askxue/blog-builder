@@ -13,6 +13,7 @@ pipeline {
         }
         stage('build') {
             steps {
+                sh 'npm config set registry http://registry.npm.taobao.org'
                 sh 'npm install'
                 sh 'npm install -g hexo-cli gulp-cli'
                 sh 'hexo g -f'
