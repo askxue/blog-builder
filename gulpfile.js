@@ -8,7 +8,7 @@ const gulp = require("gulp");
 const workbox = require("workbox-build");
 
 const task_name = "generate-service-worker";
-const public_dir = "D:\\tmp\\website";            // 输出目录，要和hexo配置文件内的保持一致
+const public_dir = "public";            // 输出目录，要和hexo配置文件内的保持一致
 
 gulp.task(task_name, () => {
   return workbox.injectManifest({
